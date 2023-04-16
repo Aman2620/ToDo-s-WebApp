@@ -1,0 +1,257 @@
+@media screen and (min-width:1200px) {
+  body{
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+  .header-container h2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .form-group-in{
+    margin-left: 55vh;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .form-group-in textarea{
+    display: block;
+    width: 50%;
+    min-height: 50px;
+    resize: vertical;
+  }
+
+  .form-group-container{
+    display: block;
+    width: 50%;
+    height: 25px;
+  }
+  .submit-btn{
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 56vh;
+    background-color: #416ee8;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+  }
+  #items{
+    margin-left: 55vh;
+  }
+  table {
+    width: 70%;
+    font-size: 18px;
+    border-collapse: collapse;
+    margin-left: 15%;
+    border: 1px solid black;
+  }
+  table tr td{
+    border-right: 1px dotted grey;
+  }
+
+  td,
+  th {
+    padding: 16px 24px;
+    text-align: left;
+  }
+
+  thead tr {
+    background-color: #087f5b;
+    color: #fff;
+  }
+
+  thead th {
+    width: 25%;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #e9ecef;
+  }
+  table tr td button{
+    padding: 5px;
+    font-size: 15px;
+    background-color: #416ee8;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+  }
+
+}
+
+@media screen and (max-width:1200px) {
+  body{
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+  .header-container h2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .form-group-in{
+    margin-left: 18vh;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .form-group-in textarea{
+    display: block;
+    width: 75%;
+    min-height: 50px;
+    resize: vertical;
+  }
+
+  .form-group-container{
+    display: block;
+    width: 75%;
+    height: 25px;
+  }
+  .submit-btn{
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 22%;
+    background-color: #416ee8;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+  }
+  #items{
+    margin-left: 20vh;
+    font-size: 15px;
+  }
+  table {
+    width: 70%;
+    font-size: 18px;
+    border-collapse: collapse;
+    margin-left: 15%;
+    border: 1px solid black;
+  }
+  table tr td{
+    border-right: 1px dotted grey;
+  }
+
+  td,
+  th {
+    padding: 16px 24px;
+    text-align: left;
+  }
+
+  thead tr {
+    background-color: #087f5b;
+    color: #fff;
+  }
+
+  thead th {
+    width: 25%;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #e9ecef;
+  }
+  table tr td button{
+    padding: 5px;
+    font-size: 15px;
+    background-color: #416ee8;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+  }
+}
+
+
+@media screen and (max-width:550px) {
+  body{
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+  .header-container h2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .form-group-in{
+    margin-left: 10vh;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .form-group-in textarea{
+    display: block;
+    width: 75%;
+    min-height: 50px;
+    resize: vertical;
+  }
+
+  .form-group-container{
+    display: block;
+    width: 75%;
+    height: 25px;
+  }
+  .submit-btn{
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 25%;
+    background-color: #416ee8;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+  }
+  #items{
+    margin-left: 10vh;
+  }
+  table {
+    width: 70%;
+    font-size: 18px;
+    border-collapse: collapse;
+    margin-left: 4vh;
+    border: 1px solid black;
+  }
+  table tr td{
+    border-right: 1px dotted grey;
+  }
+  table tr td button{
+    padding: 5px;
+    font-size: 15px;
+    background-color: #416ee8;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+  }
+
+  td,
+  th {
+    padding: 16px 24px;
+    text-align: left;
+  }
+
+  thead tr {
+    background-color: #087f5b;
+    color: #fff;
+  }
+
+  thead th {
+    width: 25%;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #e9ecef;
+  }
+}
