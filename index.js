@@ -13,6 +13,9 @@ function getAndUpdate() {
     itemJsonArray.push([tit,desc]);
     localStorage.setItem('itemJson',JSON.stringify(itemJsonArray));
   }
+  document.getElementById('title').value="";
+  document.getElementById('description').value="";
+
   update()
 
 }
