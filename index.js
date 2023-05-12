@@ -16,6 +16,9 @@ function getAndUpdate() {
   
 
   update()
+  document.getElementById('title').value="";
+  document.getElementById('description').value="";
+                          
 
 }
 
