@@ -13,6 +13,8 @@ function getAndUpdate() {
     itemJsonArray.push([tit,desc]);
     localStorage.setItem('itemJson',JSON.stringify(itemJsonArray));
   }
+  
+
   update()
 
 }
